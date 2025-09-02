@@ -1,5 +1,4 @@
 use abi_stable::std_types::*;
-use regex::Regex;
 use findex_plugin::{ApplicationCommand, define_plugin, FResult};
 
 fn init(_: &RHashMap<RString, RString>) -> RResult<(), RString> {
